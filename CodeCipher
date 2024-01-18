@@ -1,0 +1,6 @@
+import pandas as pd
+
+# Assuming df is a pandas DataFrame
+df.dropna()  # Drop rows with NaN values
+df.fillna(0)  # Fill NaN values with 0
+df.drop_duplicates()  # Remove duplicate rows
